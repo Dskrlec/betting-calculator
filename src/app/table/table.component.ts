@@ -28,9 +28,9 @@ export class TableComponent implements OnInit {
   displayedColumns: string[] = ['matchTime', 'odds_1', 'odds_x', 'odds_2', 'odds_12', 'odds_1x', 'odds_x2'];
   leagueMatchGroups: LeagueMatchGroup[] = [];
   selectedItems: SelectedItem[] = [];
-  oddsSum: number = 0
-  payout: number = 0
-  amount: number = 0
+  oddsSum: number = 0;
+  payout: number = 0;
+  amount: number = 0;
   constructor(private snackBar: MatSnackBar) { }
 
   ngOnInit(): void {
