@@ -1,0 +1,2056 @@
+{
+    "locations": [
+        {
+            "id": "243",
+            "name": "Engleska",
+            "leagues": [
+                {
+                    "id": "67",
+                    "name": "Engleska 1",
+                    "iconId": "premier-league",
+                    "eventId": "F8EA1B790D825693770EB9D59E020E68",
+                    "linkedId": "F8EA1B790D825693770EB9D59E020E68",
+                    "providerId": "Betradar",
+                    "betCode": "2891",
+                    "startDate": "2023-08-11T00:00:00Z",
+                    "endDate": "2024-05-19T00:00:00Z",
+                    "eventDateGroups": [
+                        {
+                            "date": "2024-03-09T00:00:00Z",
+                            "events": [
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "A68EAAF21B7C504738FE6D7B1497C6BA",
+                                    "linkedId": "A68EAAF21B7C504738FE6D7B1497C6BA",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3092",
+                                    "fixture": {
+                                        "startDate": "2024-03-09T12:30:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "22",
+                                                "name": "Manchester United",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "12",
+                                                "name": "Everton",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.93,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 3.8,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.75,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.28,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.27,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.88,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "2.5",
+                                                    "odds": 2.22,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.65,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 201,
+                                    "isHighlighted": false,
+                                    "willBeLive": true,
+                                    "picksTotal": 1052,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "0AB670FC5F303BB3ABCB25600146BA46",
+                                    "linkedId": "0AB670FC5F303BB3ABCB25600146BA46",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3118",
+                                    "fixture": {
+                                        "startDate": "2024-03-09T15:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "981",
+                                                "name": "Crystal Palace",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "1034",
+                                                "name": "Luton T.",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.77,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 4.8,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.65,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.29,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.19,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 2.07,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "2.5",
+                                                    "odds": 2,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.8,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 201,
+                                    "isHighlighted": false,
+                                    "willBeLive": true,
+                                    "picksTotal": 1049,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "936C714102996B8CDB6A48D108460A94",
+                                    "linkedId": "936C714102996B8CDB6A48D108460A94",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3221",
+                                    "fixture": {
+                                        "startDate": "2024-03-09T15:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "999",
+                                                "name": "Bournemouth",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "991",
+                                                "name": "Sheffield Utd",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.37,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 8,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 5.1,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.17,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.08,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 3.1,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.6,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 2.35,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 201,
+                                    "isHighlighted": false,
+                                    "willBeLive": true,
+                                    "picksTotal": 1045,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "65D4DBD7F7F11AF7E0810A8AA4EC4265",
+                                    "linkedId": "65D4DBD7F7F11AF7E0810A8AA4EC4265",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3230",
+                                    "fixture": {
+                                        "startDate": "2024-03-09T15:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "998",
+                                                "name": "Wolverhampton",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "17",
+                                                "name": "Fulham",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 2.6,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 2.7,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.4,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.33,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.47,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.51,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.93,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.87,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 200,
+                                    "isHighlighted": false,
+                                    "willBeLive": true,
+                                    "picksTotal": 1049,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "9C6FDF33AF867D15B0B723F60A8C5960",
+                                    "linkedId": "9C6FDF33AF867D15B0B723F60A8C5960",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3207",
+                                    "fixture": {
+                                        "startDate": "2024-03-09T17:30:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "3",
+                                                "name": "Arsenal",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "1001",
+                                                "name": "Brentford",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.24,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 11.4,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 6.4,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.12,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.04,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 4.1,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.74,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 2.1,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 201,
+                                    "isHighlighted": false,
+                                    "willBeLive": true,
+                                    "picksTotal": 1031,
+                                    "settlementsLocked": false
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-03-10T00:00:00Z",
+                            "events": [
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "80D0E39C9865D8943788505AA4ED2EDA",
+                                    "linkedId": "80D0E39C9865D8943788505AA4ED2EDA",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3199",
+                                    "fixture": {
+                                        "startDate": "2024-03-10T13:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "18",
+                                                "name": "Aston Villa",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "21",
+                                                "name": "Tottenham",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 2.38,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 2.6,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 4.1,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.24,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.51,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.59,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.95,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.86,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 200,
+                                    "isHighlighted": false,
+                                    "willBeLive": true,
+                                    "picksTotal": 1054,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "5D8EEBAFC7DF0423E3A63D87B6A9716E",
+                                    "linkedId": "5D8EEBAFC7DF0423E3A63D87B6A9716E",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3135",
+                                    "fixture": {
+                                        "startDate": "2024-03-10T14:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "11",
+                                                "name": "West Ham",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "978",
+                                                "name": "Burnley",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.72,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 4.85,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.85,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.27,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.19,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 2.15,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "2.5",
+                                                    "odds": 2.12,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.72,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 201,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 1053,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "4C6939BBEB9F1B47525225599AB1F6F4",
+                                    "linkedId": "4C6939BBEB9F1B47525225599AB1F6F4",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3211",
+                                    "fixture": {
+                                        "startDate": "2024-03-10T14:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "1002",
+                                                "name": "Brighton",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "987",
+                                                "name": "Nottingham F.",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.76,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 4.45,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.9,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.26,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.21,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 2.08,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "2.5",
+                                                    "odds": 2.3,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.6,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 201,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 1051,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "56260991345C5DC2FA7282328D36F8A0",
+                                    "linkedId": "56260991345C5DC2FA7282328D36F8A0",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3094",
+                                    "fixture": {
+                                        "startDate": "2024-03-10T15:45:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "19",
+                                                "name": "Liverpool",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "984",
+                                                "name": "Manchester City",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 2.95,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 2.22,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.8,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.27,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.66,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.41,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.65,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 2.25,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 200,
+                                    "isHighlighted": false,
+                                    "willBeLive": true,
+                                    "picksTotal": 1053,
+                                    "settlementsLocked": false
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-03-11T00:00:00Z",
+                            "events": [
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "08F8DF56512093513679DA9C1DFB2D40",
+                                    "linkedId": "08F8DF56512093513679DA9C1DFB2D40",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "3219",
+                                    "fixture": {
+                                        "startDate": "2024-03-11T20:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "4",
+                                                "name": "Chelsea",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "8",
+                                                "name": "Newcastle",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.92,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 3.55,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 4.05,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.25,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.3,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.89,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.72,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 2.12,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 201,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 1050,
+                                    "settlementsLocked": false
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-03-13T00:00:00Z",
+                            "events": [
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "EC9455AA1FB447B0E00B48151151B65E",
+                                    "linkedId": "EC9455AA1FB447B0E00B48151151B65E",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "9866",
+                                    "fixture": {
+                                        "startDate": "2024-03-13T19:30:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "999",
+                                                "name": "Bournemouth",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "1034",
+                                                "name": "Luton T.",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 1.6,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 5.2,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 4.35,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.22,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.17,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 2.35,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.61,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 2.3,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 170,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 907,
+                                    "settlementsLocked": false
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-03-16T00:00:00Z",
+                            "events": [
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "1808357550343F674A279F8051634E00",
+                                    "linkedId": "1808357550343F674A279F8051634E00",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "8963",
+                                    "fixture": {
+                                        "startDate": "2024-03-16T15:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "1034",
+                                                "name": "Luton T.",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "987",
+                                                "name": "Nottingham F.",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 2.6,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 2.6,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.6,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.29,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.51,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.5,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "2.5",
+                                                    "odds": 2.2,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.65,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 170,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 910,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "CFCB54FAEB2D6857F8345FA8D01EBDDE",
+                                    "linkedId": "CFCB54FAEB2D6857F8345FA8D01EBDDE",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "8965",
+                                    "fixture": {
+                                        "startDate": "2024-03-16T15:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "978",
+                                                "name": "Burnley",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "1001",
+                                                "name": "Brentford",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 3.5,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 2.07,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.6,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.3,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.76,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.31,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "2.5",
+                                                    "odds": 2.12,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "2.5",
+                                                    "odds": 1.72,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 170,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 907,
+                                    "settlementsLocked": false
+                                },
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "29C8C2FB42F34CAD5FFB3EAC938CD5E8",
+                                    "linkedId": "29C8C2FB42F34CAD5FFB3EAC938CD5E8",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "8962",
+                                    "fixture": {
+                                        "startDate": "2024-03-16T17:30:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "17",
+                                                "name": "Fulham",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "21",
+                                                "name": "Tottenham",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 3.05,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 2.15,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.85,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.27,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.7,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.38,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.64,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 2.28,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 170,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 910,
+                                    "settlementsLocked": false
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-03-17T00:00:00Z",
+                            "events": [
+                                {
+                                    "isLive": false,
+                                    "sportId": "1",
+                                    "id": "9133A983FF59A994413418D7512688FB",
+                                    "linkedId": "9133A983FF59A994413418D7512688FB",
+                                    "providerId": "ExeFeed",
+                                    "betCode": "8964",
+                                    "fixture": {
+                                        "startDate": "2024-03-17T14:00:00Z",
+                                        "type": "standard",
+                                        "participants": [
+                                            {
+                                                "id": "11",
+                                                "name": "West Ham",
+                                                "position": "1"
+                                            },
+                                            {
+                                                "id": "18",
+                                                "name": "Aston Villa",
+                                                "position": "2"
+                                            }
+                                        ],
+                                        "league": {
+                                            "id": "67",
+                                            "name": "Engleska 1",
+                                            "order": 4,
+                                            "seasonOriented": false,
+                                            "eventless": false,
+                                            "iconId": "premier-league",
+                                            "locationName": "Engleska",
+                                            "locationId": "243",
+                                            "locationOrder": 3
+                                        },
+                                        "status": "NSY"
+                                    },
+                                    "markets": [
+                                        {
+                                            "marketId": "1",
+                                            "betCode": "1",
+                                            "bl": 0,
+                                            "name": "Osnovna ponuda",
+                                            "picks": [
+                                                {
+                                                    "id": "1",
+                                                    "name": "1",
+                                                    "odds": 2.9,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "2",
+                                                    "name": "2",
+                                                    "odds": 2.25,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x",
+                                                    "name": "x",
+                                                    "odds": 3.8,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000010,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "10",
+                                            "betCode": "2",
+                                            "bl": 0,
+                                            "name": "Dupla šansa",
+                                            "picks": [
+                                                {
+                                                    "id": "12",
+                                                    "name": "12",
+                                                    "odds": 1.27,
+                                                    "order": 30,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "1x",
+                                                    "name": "1x",
+                                                    "odds": 1.65,
+                                                    "order": 10,
+                                                    "status": 1
+                                                },
+                                                {
+                                                    "id": "x2",
+                                                    "name": "x2",
+                                                    "odds": 1.41,
+                                                    "order": 20,
+                                                    "status": 1
+                                                }
+                                            ],
+                                            "order": 10000020,
+                                            "isValid": true
+                                        },
+                                        {
+                                            "marketId": "18",
+                                            "betCode": "3",
+                                            "bl": 0,
+                                            "name": "Zbir golova",
+                                            "picks": [
+                                                {
+                                                    "id": "under",
+                                                    "name": "Manje",
+                                                    "baseLine": "3.5",
+                                                    "odds": 1.63,
+                                                    "order": 10,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                },
+                                                {
+                                                    "id": "over",
+                                                    "name": "Više",
+                                                    "baseLine": "3.5",
+                                                    "odds": 2.3,
+                                                    "order": 20,
+                                                    "status": 1,
+                                                    "mostBalanced": true
+                                                }
+                                            ],
+                                            "order": 10000030,
+                                            "isValid": true
+                                        }
+                                    ],
+                                    "topLeagues": [],
+                                    "marketsTotal": 170,
+                                    "isHighlighted": false,
+                                    "willBeLive": false,
+                                    "picksTotal": 910,
+                                    "settlementsLocked": false
+                                }
+                            ]
+                        }
+                    ],
+                    "eventless": false,
+                    "seasonOriented": false,
+                    "order": 4
+                }
+            ],
+            "order": 3
+        }
+    ]
+  }

@@ -1,0 +1,72 @@
+.app-position {
+   display: flex;
+   justify-content: start
+}
+
+.custom-table-header {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    align-items: center;
+    background: darkseagreen;
+    padding: 8px;
+    border-bottom: 1px solid black;
+  }
+  
+  .league-header {
+    font-weight: bold;
+  }
+  
+  .odds-header {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .date-header {
+    padding: 3px;
+    background: #666666;
+    color: white;
+  }
+  
+  .mat-column-matchTime{
+    max-width: 250px !important;
+    min-width: 250px !important;
+  }
+  
+  .custom-cell-basic {
+    cursor: pointer;
+    background-color: #999999 ;
+    color: white;
+  }
+  
+  .custom-cell-double {
+    cursor: pointer;
+    background-color: gray;
+    color: white
+  }
+  
+  .selected {
+    background-color: red !important;
+  }
+
+  .match-time {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  mat-header-row {
+    height: 20px;
+    min-height: 0;
+  }
+
+  .betslip-picks {
+    display:flex; 
+    justify-content: space-between
+  }
+
+  .input-amount {
+    margin-bottom: 10px; 
+    display: flex; 
+    align-items: center;
+  }
+  

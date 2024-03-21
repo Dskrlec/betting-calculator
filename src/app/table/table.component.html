@@ -1,0 +1,128 @@
+<div class="app-position">
+  <div>
+    <div *ngFor="let leagueGroup of leagueMatchGroups">
+      <div class="custom-table-header">
+        <div class="league-header">{{ leagueGroup.leagueName }}</div>
+        <div class="odds-header">Osnovna ponuda</div>
+        <div class="odds-header">Dupla šansa</div>
+      </div>
+
+      <div *ngFor="let dateGroup of leagueGroup.dateGroups" class="date-and-matches">
+        <div class="date-header"> {{ dateGroup.date }}</div>
+        <mat-table [dataSource]="dateGroup.matches" class="mat-elevation-z4">
+
+          <ng-container matColumnDef="matchTime" class="matchTime">
+            <mat-header-cell *matHeaderCellDef> </mat-header-cell>
+            <mat-cell *matCellDef="let element" style="display: table-row">
+              <div class="match-name">{{ element.match }}</div>
+              <div class="match-time">{{ element.date | date: 'HH:mm' }}</div>
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="odds_1">
+            <mat-header-cell *matHeaderCellDef> 1 </mat-header-cell>
+            <mat-cell *matCellDef="let element"
+                      (click)="showSelectedOdd(element, 'odds_1', 'Osnovna ponuda')"
+                      [ngClass]="{'selected': isSelected(element, 'Osnovna ponuda', element.odds_1)}"
+                      class="custom-cell-basic">
+              {{ element.odds_1 }}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="odds_x">
+            <mat-header-cell *matHeaderCellDef> X </mat-header-cell>
+            <mat-cell *matCellDef="let element" (click)="showSelectedOdd(element, 'odds_x', 'Osnovna ponuda')"
+                      [ngClass]="{'selected': isSelected(element, 'Osnovna ponuda', element.odds_x)}"
+                      class="custom-cell-basic">
+              {{ element.odds_x }}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="odds_2">
+            <mat-header-cell *matHeaderCellDef> 2 </mat-header-cell>
+            <mat-cell *matCellDef="let element"
+                      (click)="showSelectedOdd(element, 'odds_2', 'Osnovna ponuda')"
+                      [ngClass]="{'selected': isSelected(element, 'Osnovna ponuda', element.odds_2)}"
+                      class="custom-cell-basic">
+              {{ element.odds_2 }}
+              </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="odds_12">
+            <mat-header-cell *matHeaderCellDef> 12 </mat-header-cell>
+            <mat-cell *matCellDef="let element" (click)="showSelectedOdd(element, 'odds_12', 'Dupla šansa')"
+                      [ngClass]="{'selected': isSelected(element, 'Dupla šansa', element.odds_12)}"
+                      class="custom-cell-basic">
+              {{ element.odds_12 }}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="odds_1x">
+            <mat-header-cell *matHeaderCellDef> 1X </mat-header-cell>
+            <mat-cell *matCellDef="let element" (click)="showSelectedOdd(element, 'odds_1x', 'Dupla šansa')"
+                      [ngClass]="{'selected': isSelected(element, 'Dupla šansa', element.odds_1x)}"
+                      class="custom-cell-basic">
+              {{ element.odds_1x }}
+            </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="odds_x2">
+            <mat-header-cell *matHeaderCellDef> X2 </mat-header-cell>
+            <mat-cell *matCellDef="let element" (click)="showSelectedOdd(element, 'odds_x2','Dupla šansa')"
+                      [ngClass]="{'selected': isSelected(element, 'Dupla šansa', element.odds_x2)}"
+                      class="custom-cell-basic">
+              {{ element.odds_x2 }}
+            </mat-cell>
+          </ng-container>
+
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </mat-table>
+      </div>
+    </div>
+  </div>
+  <div style="margin-left: 30px">
+    <div style="height: 625px; overflow-y: auto;">
+      <h3>Betslip</h3>
+      <div *ngFor="let selection of selectedItems" style="padding: 10px">
+        <div class="betslip-picks">
+          <div>
+            <div style="margin-right: 10px;">{{ selection.match }}</div>
+            <div style="display: flex; justify-content: space-between">
+              <div style="margin-right: 10px;">{{ selection.date | date: 'HH:mm' }}</div>
+              <div style="margin-right: 10px; font-weight: bold">{{ selection.odd }}</div>
+              <div style="margin-right: 10px; font-weight: bold">{{selection.oddKey | formatOdds }}</div>
+            </div>
+          </div>
+          <div>
+            <mat-icon color="warn" (click)="removeSelectedOdd(selection)" style="cursor: pointer;">delete</mat-icon>
+          </div>
+        </div>
+        <mat-divider style="margin-top: 10px"></mat-divider>
+      </div>
+    </div>
+    <div>
+      <div class="input-amount">
+        <div style="flex-grow: 1;">
+          <mat-form-field appearance="fill">
+            <mat-label>Enter Amount</mat-label>
+            <input matInput type="number" [(ngModel)]="amount" (ngModelChange)="getTotals()"
+                   min="10" max="500">
+            <mat-error *ngIf="amount < 10 || amount > 500">Amount must be between 10€ and 500€</mat-error>
+          </mat-form-field>
+        </div>
+        <div style="margin-left: 5px;">EUR</div>
+      </div>
+      
+      <div style="margin-top: 20px;">
+        <div style="margin-bottom: 10px;">Total odds: {{oddsSum | number:'1.2-2'}}</div>
+        <div>Win amount: 
+          <ng-container *ngIf="amount >= 10 && amount <= 500; else outOfRange">
+            {{ payout | currency : 'EUR':'symbol':'1.2-2' }}
+          </ng-container>
+          <ng-template #outOfRange>---</ng-template>
+        </div>
+      </div>
+    </div>
+</div>
+
